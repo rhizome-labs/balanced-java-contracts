@@ -135,7 +135,7 @@ class LoansTest extends LoansTestBase {
         assertEquals(day.intValue(), position.get("snap_id"));
         assertEquals(1, position.get("snaps_length"));
         assertEquals(day.intValue(), position.get("last_snap"));
-        assertEquals(day.intValue(), position.get("first day"));
+        assertEquals(day.intValue(), position.get("first_day"));
         assertEquals(loan.add(expectedFee), position.get("total_debt"));
         assertEquals(collateral, position.get("collateral"));
         assertEquals(collateral.multiply(EXA).divide(loan.add(expectedFee)), position.get("ratio"));

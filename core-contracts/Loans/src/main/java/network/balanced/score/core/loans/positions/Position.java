@@ -505,7 +505,7 @@ public class Position {
         positionDetails.put("snap_id", index);
         positionDetails.put("snaps_length", getSnapsSize());
         positionDetails.put("last_snap", lastSnap());
-        positionDetails.put("first day", getSnaps(0));
+        positionDetails.put("first_day", getSnaps(0));
         positionDetails.put("assets", assetAmounts);
         positionDetails.put("total_debt", standing.totalDebt);
         positionDetails.put("collateral", standing.collateral);
